@@ -1,0 +1,31 @@
+.container {
+    position: relative;
+}
+
+.themeIcon {
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.selectorIcon {
+    width: 2rem;
+}
+
+.selection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.2rem;
+    cursor: pointer;
+}
+
+.themeSelector {
+    position: absolute;
+    top: 4rem;
+    right: 0;
+    background-color: var(--color-background);
+    border: 1px solid var(--color-neutral);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    width: 130px;
+}

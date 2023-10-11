@@ -1,0 +1,14 @@
+.container {
+    text-align: center;
+    background-color: var(--color-background2);
+    color: var(--color-background);
+}
+
+.servicesContainer {
+    padding: 2rem;
+}
+
+.service {
+    font-size: 2rem;
+    padding: 2rem
+}

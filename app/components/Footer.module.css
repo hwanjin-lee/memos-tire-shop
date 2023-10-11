@@ -1,0 +1,40 @@
+.container {
+    padding: 6rem 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--color-primary);
+    color: #FFF;
+}
+
+@media screen and (max-width: 700px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .locationContainer {
+        padding: 2rem 0;
+    }
+    .socialMediaLinks {
+        justify-content: center;
+    }
+}
+
+.socialMediaLinks {
+    display: flex;
+}
+
+.imageContainer {
+    padding: 2rem 0.5rem;
+}
+
+.locationContainer {
+}
+
+.locationTitle {
+    padding-bottom: 0.5rem;
+}
+
+.locationInfo {
+    cursor: pointer;
+    font-weight: bold;
+}

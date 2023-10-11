@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 0 0 10rem;
+}
+
+.testimonialsContainer {
+    text-align: center;
+    padding: 2rem 0;
+    /* border: 1px solid red;
+    border-radius: 1.5rem; */
+}
+
+.reviewStar {
+    display: flex;
+    padding: 1.5rem 0;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: var(--color-accent);
+}
+.reviewText {
+    max-width: 300px;
+    padding: 0 1rem 1rem 1rem;
+}
+
+@media screen and (max-width: 950px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+}

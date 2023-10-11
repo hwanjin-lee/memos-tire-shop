@@ -1,0 +1,43 @@
+.container {
+    /* background-color: var(--color-Primary); */
+}
+
+.cardsContainer {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+@media screen and (max-width: 980px) {
+    .cardsContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-neutral);
+    max-width: 300px;
+    border-radius: 3rem;
+    margin: 1rem;
+    border: 2px solid var(--color-text);
+    box-shadow: 3px 3px var(--color-text);
+}
+
+.imageContainer {
+    padding: 2rem;
+}
+
+.cardTitle {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.cardContext {
+    height: 140px;
+    padding: 2rem
+}
