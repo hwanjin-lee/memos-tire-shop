@@ -8,7 +8,7 @@ const About = () => {
       <div className={styles.container}>
         <div className="textCenter">
           <div className="sectionTitlePrimary">
-            We'll Fix You Up in a Jiffy!
+            We&apos;ll Fix You Up in a Jiffy!
           </div>
           <div>Offering you the best solution for your vehicle</div>
         </div>

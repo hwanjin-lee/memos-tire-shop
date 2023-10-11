@@ -23,7 +23,7 @@ const Navbar = () => {
       <div className={styles.section}>
         <div className={styles.logo}>
           <FontAwesomeIcon icon={faCar} className={styles.logoIcon} />
-          <Link href="/">Memo's Tire Shop</Link>
+          <Link href="/">Memo&apos;s Tire Shop</Link>
         </div>
       </div>
       {burger ? (
